@@ -1,4 +1,4 @@
- 
+import { CiLocationOn } from "react-icons/ci"; 
 
 const Footer = () => {
     return (
@@ -6,28 +6,33 @@ const Footer = () => {
             <footer className="footer p-10">
   <nav>
     <h6 className="footer-title">Address</h6> 
-    <a className="link link-hover">Branding</a>
-    <a className="link link-hover">Design</a>
-    <a className="link link-hover">Marketing</a>
-    <a className="link link-hover">Advertisement</a>
+  <p>House - 75 Ka,Main <br />Rd,Dhaka 1216</p>
+  <p className="flex items-center gap-2"><span><CiLocationOn /></span>Viwe On Maps</p>
   </nav> 
   <nav>
-    <h6 className="footer-title">Company</h6> 
-    <a className="link link-hover">About us</a>
-    <a className="link link-hover">Contact</a>
-    <a className="link link-hover">Jobs</a>
-    <a className="link link-hover">Press kit</a>
+    <h6 className="footer-title">About us</h6> 
+  <a>Stories</a>
+  <a>Blog</a>
+  <a>Airlines</a>
+  <a>Testimonials</a>
   </nav> 
   <nav>
-    <h6 className="footer-title">Legal</h6> 
-    <a className="link link-hover">Terms of use</a>
-    <a className="link link-hover">Privacy policy</a>
-    <a className="link link-hover">Cookie policy</a>
+    <h6 className="footer-title">Join Us</h6> 
+ <a>Terms Of Service</a>
+ <a>Privacy Policy</a>
+ <a>Support</a>
+  </nav>
+  <nav>
+    <h6 className="footer-title">Contact</h6> 
+ <a>+881234562890</ a>
+ <a>+881234562890</a>
+ <a>+881234562890</a>
+ <a>info@AirBook.Coom</a>
   </nav>
 </footer> 
 <footer className="footer px-10 py-4 border-t border-base-300 lg:justify-around items-center">
   <aside className="items-center grid-flow-col">
-     <img src="../../../public/LOGO (1).png" alt="" />
+     <img src="https://i.postimg.cc/76hWVkfz/LOGO-1.png" alt="" />
   </aside> 
   <div className="">© Copyright AIRBOOK</div>
   <nav className="md:place-self-center md:justify-self-end">

@@ -1,7 +1,7 @@
  
 
 const FeaturedCard = ({title,img}) => {
-    // Stopover Opportuniy in stanbul With Turkish Airlines
+   
     return (
         <div className="card w-96 bg-base-100 shadow-xl">
   <figure className="px-5 pt-15">

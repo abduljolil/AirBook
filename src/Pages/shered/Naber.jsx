@@ -20,7 +20,7 @@ const Naber = () => {
                         {navlink}
                     </ul>
                 </div>
-               <img src="../../../public/LOGO (1).png" alt="" />
+               <img src="https://i.postimg.cc/76hWVkfz/LOGO-1.png" alt="" />
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1 flex items-center gap-3 text-lg font-semibold">
