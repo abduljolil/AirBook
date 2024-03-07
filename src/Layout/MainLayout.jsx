@@ -1,5 +1,6 @@
 import { Outlet } from "react-router-dom";
 import Naber from "../Pages/shered/Naber";
+import Footer from "../Pages/shered/Footer";
  
  
 
@@ -7,11 +8,9 @@ import Naber from "../Pages/shered/Naber";
 const MainLayout = () => {
     return (
         <div>
-            <div>
-      
-            </div>
           <Naber></Naber>
             <Outlet></Outlet>
+            <Footer></Footer>
         
         </div>
     );
